@@ -8,13 +8,6 @@ void setup() {
   smooth();
   frameRate(70); 
 }
-void mouseClicked() {
-  if (value == 0) {
-    value = 255;
-  } else {
-    value = 0;
-  }
-}
 void draw() {
   fill(4, 50, 50);
   rect(width/2, height/2, width, height);
@@ -37,4 +30,7 @@ void draw() {
   rect(0, 0, 130, 130);
   //esto hace que el valor del ángulo aumente a cada ciclo
   i = i + 0.07;
+  if(mousePressed){
+    i = 0;
+  }
  }
