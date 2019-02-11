@@ -21,6 +21,7 @@
 import frames.primitives.*;
 import frames.core.*;
 import frames.processing.*;
+import java.util.Random;
 
 Scene scene;
 PShape s;
@@ -29,7 +30,9 @@ int flockHeight = 720;
 int flockDepth = 600;
 boolean avoidWalls = true;
 float sc = 3;
-
+ArrayList<Boid> flockCurves=new ArrayList();
+ArrayList<Vector> Curvas=new ArrayList();
+String CurveType="";
 // visual modes
 // 0. Faces and edges
 // 1. Wireframe (only edges)
@@ -43,9 +46,15 @@ Frame avatar;
 boolean animate = true;
 //Retained mode
 boolean retained = false;
+int [] numbers =  new int [8];
 //Representation mode
 boolean rep = false;
 void setup() {
+  Random r = new Random();
+  for(int i = 0; i<4; i++){
+    numbers[i]= r.nextInt(initBoidNum);
+    print(numbers[i] + " ");
+  }
   size(1000, 800, P3D);
   scene = new Scene(this);
   scene.setFrustum(new Vector(0, 0, 0), new Vector(flockWidth, flockHeight, flockDepth));
@@ -65,10 +74,109 @@ void draw() {
   directionalLight(255, 255, 255, 0, 1, -100);
   walls();
   // Calls Node.visit() on all scene nodes.
-  scene
-.traverse();
+  scene.traverse();
+  strokeWeight(3);  
+  if(CurveType=="CB")
+    {
+         cubicBezier();
+         stroke(255,255,0);
+    }
+   if(CurveType=="CH")
+    {
+      cubicHermite();
+      stroke(255,0,255);
+    }
+
+    
+      if(!Curvas.isEmpty()){        
+        for(int i=0;i<Curvas.size()-1;i++){
+          line(Curvas.get(i).x(), Curvas.get(i).y(), Curvas.get(i).z() , Curvas.get(i+1).x(), Curvas.get(i+1).y(), Curvas.get(i+1).z());
+        }}
 }
-  
+void randomFlocks(){
+  flockCurves.clear();
+  flockCurves.add(flock.get(numbers[0]));  
+  flockCurves.add(flock.get(numbers[1]));
+  flockCurves.add(flock.get(numbers[2]));
+  flockCurves.add(flock.get(numbers[3]));
+}
+
+void cubicBezier(){
+  Curvas.clear();  
+  for(float u =0;u<=1;u+=0.1){
+    //println("----- "+u);
+    Matrix DuBc= new Matrix(  u*u*u, u*u, u, 1, 
+                              0, 0, 0, 0, 
+                              0, 0, 0, 0, 
+                              0, 0, 0, 0 );
+                            
+    Matrix BC= new Matrix(  -1, 3,-3, 1, 
+                             3,-6, 3, 0, 
+                            -3, 3, 0, 0, 
+                             1, 0, 0, 0 );                     
+      
+    BC.apply(DuBc);      
+    
+    Matrix PointsX =  new Matrix(   flockCurves.get(0).position.x(), 0, 0, 0, 
+                                    flockCurves.get(1).position.x(), 0, 0, 0, 
+                                    flockCurves.get(2).position.x(), 0, 0, 0, 
+                                    flockCurves.get(3).position.x(), 0, 0, 0 );
+    
+    Matrix PointsY =  new Matrix(   flockCurves.get(0).position.y(), 0, 0, 0, 
+                                    flockCurves.get(1).position.y(), 0, 0, 0, 
+                                    flockCurves.get(2).position.y(), 0, 0, 0, 
+                                    flockCurves.get(3).position.y(), 0, 0, 0 );
+                                  
+    Matrix PointsZ =  new Matrix(   flockCurves.get(0).position.z(), 0, 0, 0, 
+                                    flockCurves.get(1).position.z(), 0, 0, 0, 
+                                    flockCurves.get(2).position.z(), 0, 0, 0, 
+                                    flockCurves.get(3).position.z(), 0, 0, 0 );  
+    PointsX.apply(BC);
+    PointsY.apply(BC);
+    PointsZ.apply(BC);     
+           
+    Curvas.add(new Vector(PointsX.m00(),PointsY.m00(),PointsZ.m00()));
+  }
+}
+
+void cubicHermite(){
+  Curvas.clear();  
+  for(float u =0;u<=1;u+=0.1)
+  {
+    //println("----- "+u);
+    Matrix DuBc= new Matrix(  u*u*u, u*u, u, 1, 
+                              0, 0, 0, 0, 
+                              0, 0, 0, 0, 
+                              0, 0, 0, 0 );
+                            
+     Matrix HM= new Matrix(  2,-2, 1, 1, 
+                            -3, 3,-2,-1, 
+                             0, 0, 1, 0, 
+                             1, 0, 0, 0 );                     
+      
+      HM.apply(DuBc);      
+    
+      Matrix PointsX =  new Matrix(  flockCurves.get(0).position.x(), 0, 0, 0, 
+                                     flockCurves.get(1).position.x(), 0, 0, 0, 
+                                     flockCurves.get(2).position.x(), 0, 0, 0, 
+                                     flockCurves.get(3).position.x(), 0, 0, 0);
+                                     
+      Matrix PointsY =  new Matrix(  flockCurves.get(0).position.y(), 0, 0, 0, 
+                                     flockCurves.get(1).position.y(), 0, 0, 0, 
+                                     flockCurves.get(2).position.y(), 0, 0, 0, 
+                                     flockCurves.get(3).position.y(), 0, 0, 0);
+                                     
+      Matrix PointsZ =  new Matrix(  flockCurves.get(0).position.z(), 0, 0, 0, 
+                                     flockCurves.get(1).position.z(), 0, 0, 0, 
+                                     flockCurves.get(2).position.z(), 0, 0, 0, 
+                                     flockCurves.get(3).position.z(), 0, 0, 0);  
+      PointsX.apply(HM);
+      PointsY.apply(HM);
+      PointsZ.apply(HM);      
+           
+      Curvas.add(new Vector(PointsX.m00(),PointsY.m00(),PointsZ.m00()));
+  }
+}
 // Function for Retained vertex vertex  
   PShape vertexVertexRetained(){
     pushStyle();
@@ -216,6 +324,16 @@ void keyPressed() {
   case 'm':
     mode = mode < 3 ? mode+1 : 0;
     break;
+  case 'b':
+    randomFlocks();
+    CurveType = "CB";
+    print("Bezier");
+    break;
+  case 'h':
+    randomFlocks();
+    CurveType = "CH";
+    print("Hermite");
+    break;
   case ' ':
     if (scene.eye().reference() != null)
       resetEye();
@@ -227,12 +345,6 @@ void keyPressed() {
     retained = !retained;
     changeRepresentation();
     println("Retained " + retained);
-    break;
-  // change vertexvertex o facevertex representation
-  case 'f':
-    rep = !rep;
-    changeRepresentation();
-    println("Representation " + rep);
     break;
   }
 }
