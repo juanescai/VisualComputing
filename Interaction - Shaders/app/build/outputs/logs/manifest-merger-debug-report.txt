@@ -1,0 +1,170 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f264be7df0ea259a07157c9c1196d224\AndroidManifest.xml:16:1-19:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:120-157
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:94-119
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:2:70-93
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:3:5-10:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:6:3-8:17
+MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:6:3-8:17
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:3:48-72
+	android:icon
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:3:18-47
+activity#processing.test.toonshading.MainActivity
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:4:9-9:20
+	android:theme
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:4:48-115
+	android:name
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:4:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:5:13-8:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:6:17-68
+	android:name
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:6:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:7:17-76
+	android:name
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml:7:27-74
+uses-sdk
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:4:3-70
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f264be7df0ea259a07157c9c1196d224\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\f264be7df0ea259a07157c9c1196d224\AndroidManifest.xml:18:5-42
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santel\Desktop\Universe-app-master\Universe-app\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4eafada8b9e79490e440470d14e54a52\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3b5b6126b7900833f40765d8a1874340\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\bb9bf3cdaac441ab7fea01b768a6acbf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\082be1fd19e70c60b2b6201459414d0f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\de4e01f19345eb1bfff0a284ad3b724c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\b513faba56bea4168136e41ed7c720d3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:percent:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\percent-26.0.0.aar\7a21f0faf9973687bec149449f788db6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\22068509af43aec0326c335fd32c942d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\1a79682992352a842d0905d9a21b58d4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\e9ad9333c032fe7913c054edc5255f42\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\7d37fdf4473d07a9b09abfc8037bd80c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\83332a207f154674d841dca9e79aee5e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.0] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\3a22b15b6486dc86ec9c5134dd153b58\AndroidManifest.xml:27:13-51
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:7:5-88
+	android:required
+		ADDED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:7:62-86
+	android:name
+		ADDED from [com.google.android.support:wearable:2.0.5] C:\Users\Santel\.gradle\caches\transforms-1\files-1.1\wearable-2.0.5.aar\275754d38896cca25ccb3746396f9530\AndroidManifest.xml:7:19-61
