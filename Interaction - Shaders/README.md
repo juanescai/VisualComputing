@@ -37,11 +37,11 @@ Al realizar las implementaciones previstas, obtuvimos los resultados esperados t
 ayuda de la librería del curso frames, para separar los diferentes objetos del sistema por medio de Frames. Las siguientes
 pantallas muestran el resultado final de la aplicación:
 
-![App1](https://github.com/joagranadosme/UniverseShadingTextures/blob/master/Img1.png)
+![App1](https://github.com/juanescai/VisualComputing/blob/master/Interaction%20-%20Shaders/Img1.png)
 
-![App2](https://github.com/joagranadosme/UniverseShadingTextures/blob/master/Img2.png)
+![App2](https://github.com/juanescai/VisualComputing/blob/master/Interaction%20-%20Shaders/Img2.png)
 
-![App3](https://github.com/joagranadosme/UniverseShadingTextures/blob/master/Img3.png)
+![App3](https://github.com/juanescai/VisualComputing/blob/master/Interaction%20-%20Shaders/Img3.png)
     
 ### Trabajo futuro
  * Lograr que los planetas se puedan poner como punto central.
