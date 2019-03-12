@@ -56,7 +56,7 @@ Complete la tabla:
 | Integrante | github nick |
 |------------|-------------|
 | Juan Esteban Caicedo | [juanescai](https://github.com/juanescai) |
-| Jonathan Granados | [joicarpinteronar](https://github.com/joicarpinteronar) |
+| Jose Iván Carpintero | [joicarpinteronar](https://github.com/joicarpinteronar) |
 
 ### References
 
